@@ -5,9 +5,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class FizzBuzzTestCase {
 
     @Test
-    public void testFizzBuzzForMultipleOf3() {
-        FizzBuzz fizzBuzz = new FizzBuzz(3);
-        assertEquals("Fizz", fizzBuzz.getResult());
+    public void testFizzBuzzForMultipleOf3and5() {
+        FizzBuzz fizzBuzz = new FizzBuzz(15);
+        assertEquals("FizzBuzz", fizzBuzz.getResult());
     }
 
 
