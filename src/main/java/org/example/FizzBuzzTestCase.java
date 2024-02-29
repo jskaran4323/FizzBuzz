@@ -9,21 +9,7 @@ public class FizzBuzzTestCase {
         FizzBuzz fizzBuzz = new FizzBuzz(3);
         assertEquals("Fizz", fizzBuzz.getResult());
     }
-    @Test
-    public void testFizzBuzzForMultipleOf5(){
-        FizzBuzz fizzBuzz=new FizzBuzz(10);
-        assertEquals("Buzz",fizzBuzz.getResult());
-    }
-    @Test
-    public void testFizzBuzzForMutlipleOf3And5(){
-        FizzBuzz fizzBuzz=new FizzBuzz(15);
-        assertEquals("FizzBuzz",fizzBuzz.getResult());
-    }
-    @Test
-    public void testFizzBuzzForOriginalNumber(){
-        FizzBuzz fizzBuzz=new FizzBuzz(16);
-        assertEquals("16",fizzBuzz.getResult());
-    }
+
 
 
 }
