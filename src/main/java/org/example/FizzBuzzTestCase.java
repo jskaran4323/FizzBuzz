@@ -21,6 +21,13 @@ public class FizzBuzzTestCase {
         assertEquals("Buzz", fizzBuzz.getResult());
     }
 
+    @Test
+    public void testFizzBuzzForOriginalNumber() {
+        FizzBuzz fizzBuzz = new FizzBuzz(16);
+        assertEquals("16", fizzBuzz.getResult());
+    }
+
+
 
 
 }
