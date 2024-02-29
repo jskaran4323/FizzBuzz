@@ -10,6 +10,11 @@ public class FizzBuzzTestCase {
         assertEquals("FizzBuzz", fizzBuzz.getResult());
     }
 
+    @Test
+    public void testFizzBuzzForMultipleOf3() {
+        FizzBuzz fizzBuzz = new FizzBuzz(3);
+        assertEquals("Fizz", fizzBuzz.getResult());
+    }
 
 
 }

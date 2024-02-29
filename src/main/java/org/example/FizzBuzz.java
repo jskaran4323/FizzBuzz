@@ -11,7 +11,12 @@ public class FizzBuzz {
     public String getResult() {
         if (number % 3 == 0 && number % 5 == 0) {
             return "FizzBuzz";
-        } return Integer.toString(number);
+        }
+        else if(number%3==0)
+         {
+            return "Fizz";
+        }
+        return Integer.toString(number);
     }
 
     public static void main(String[] args) {
