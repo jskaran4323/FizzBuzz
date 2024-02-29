@@ -15,6 +15,12 @@ public class FizzBuzzTestCase {
         FizzBuzz fizzBuzz = new FizzBuzz(3);
         assertEquals("Fizz", fizzBuzz.getResult());
     }
+    @Test
+    public void testFizzBuzzForMultipleOf5() {
+        FizzBuzz fizzBuzz = new FizzBuzz(5);
+        assertEquals("Buzz", fizzBuzz.getResult());
+    }
+
 
 
 }

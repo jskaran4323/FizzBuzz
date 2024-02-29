@@ -16,6 +16,9 @@ public class FizzBuzz {
          {
             return "Fizz";
         }
+        else if(number%5==0){
+        return "Buzz";
+        }
         return Integer.toString(number);
     }
 
