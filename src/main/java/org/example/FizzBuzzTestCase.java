@@ -22,7 +22,7 @@ public class FizzBuzzTestCase {
     @Test
     public void testFizzBuzzForOriginalNumber(){
         FizzBuzz fizzBuzz=new FizzBuzz(16);
-        assertEquals(16,fizzBuzz.getResult());
+        assertEquals("16",fizzBuzz.getResult());
     }
 
 
